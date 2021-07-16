@@ -7,6 +7,9 @@
 
 LOCAL_PATH := device/samsung/a14
 
+# Enable project quotas and casefolding for emulated storage without sdcardfs
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # fastbootd
