@@ -6,3 +6,5 @@
 #
 
 LOCAL_PATH := device/samsung/a14
+
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
